@@ -1,5 +1,7 @@
 ![photo](https://user-images.githubusercontent.com/106514759/171934655-5b1142da-a575-4b9f-8391-3d35f8ea8cb6.jpg)
+
 # Andrei Harapuchyk
+
 ## Contact:
 * Phone: +375 29 8035008
 * E-mail: harapuchyk.andrei@gmail.com
@@ -7,12 +9,13 @@
 * Telegram: @AndreiHa
 
 ## About me:
-Age: 30 years  
+Age: 31 years  
 Location: Belarus, Minsk
 
 I have 7 years of experience working with children with various diseases. A few years ago I got a leg injury, so I can’t physically work for a long time. I would like to learn a new specialty front-end developer. I will try to achieve this goal together with RSS.
 
 I consider ease of learning, the ability to quickly find contact with people, creative thinking and responsibility as my strengths.
+
 ## Skills:
 * HTML basics
 * CSS basics
@@ -30,6 +33,7 @@ function updateLight(current) {
   else return 'green';
 }
 ```
+
 ## Work experience:
 Links to educational projects:
 
@@ -43,8 +47,8 @@ Links to educational projects:
 * Successfully completed "JS / FRONT-END. STAGE 0"
 
 ## Languages:  
-English - A1  
-Russian - Native  
-Belarussian - Native  
-Ukrainian - A2 
-Polish - A2
+* English - A1  
+* Russian - Native  
+* Belarussian - Native  
+* Ukrainian - A2 
+* Polish - A2

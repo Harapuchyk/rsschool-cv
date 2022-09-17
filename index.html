@@ -4,7 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>CV Harapuchyk</title>
 </head>
-<body></body>
+<body>
+    <header class="header">
+        <wrapper-header class="wrapper-header">
+            <div class="logo">
+                <h1>CV</h1>
+            </div>
+            <ul class="menu">
+                <li><a class="nav-link" href="#contact">CONTACT</a></li>
+                <li><a class="nav-link" href="#about">ABOUT</a></li>
+                <li><a class="nav-link" href="#skills">SKILLS</a></li>
+                <li><a class="nav-link" href="#code">CODE</a></li>
+                <li><a class="nav-link" href="#experience">PROJECTS</a></li>
+                <li><a class="nav-link" href="#education">EDUCATION</a></li>
+                <li><a class="nav-link" href="#language">LANGUAGES</a></li>
+            </ul>
+        </wrapper-header>
+    </header>
+    <main>
+        <wrapper-main class="wrapper-main">
+            <div class="photo-contact-div">                
+                <img src="./assets/my-photo5.jpg" alt="my-photo" class="my-photo">               
+                <div class="contact"  id="contact">
+                    <h2>CONTACT:</h2>
+                    <ul class="contact-ul">
+                        <li><img class="logo-img" src="./assets/tel.png" alt="phone" width="30">  +375 29 8035008</li>
+                        <li><img class="logo-img" src="./assets/email.png" alt="e-mail:" width="30"> harapuchyk.andrei@gmail.com</li>
+                        <li><img class="logo-img" src="./assets/discord.png" alt="discord:" width="30"> @Harapuchyk</li>
+                        <li><img class="logo-img" src="./assets/telegram.png" alt="telegram:" width="30"> @AndreiHa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-me-div"  id="about">
+                <h2 class="about-me-title">ABOUT ME</h2>
+                <div class="about-me-text">
+                    <p>Age: 31 years</p>
+                    <p>Location: Belarus, Minsk</p>                   
+                    <p>I have 7 years of experience working with children with various diseases. 
+                    A few years ago I got a leg injury, so I can&#x60t physically work for a long time. 
+                    I would like to learn a new specialty front-end developer. I will try to achieve this goal together with RSS.</p>
+                    <p>I consider ease of learning, the ability to quickly find contact with people, 
+                    creative thinking and responsibility as my strengths.</p>
+                </div>
+            </div>
+            <div class="skills-code-div" id="skills">
+                <div class="skills">
+                    <h2>SKILLS</h2>                    
+                        <div class="skills-html-css">
+                            <div><img class="img-skills" src="./assets/html.png" alt="html" height="50" title="HTML basics"></div>
+                            <div><img class="img-skills" src="./assets/css.png" alt="css" height="50" title="CSS basics"></div>
+                        </div>
+                        <div class="skills-js"><img class="img-skills" src="./assets/js.png" alt="js" height="70" title="JS basics"></div>
+                        <div class="skills-git-vc">
+                            <div><img class="img-skills" src="./assets/git.png" alt="git" height="45" title="Git, GitHub"></div>
+                            <div><img class="img-skills" src="./assets/vc.png" alt="vs-code" height="45" title="VS Code"></div>
+                        </div>                    
+                </div>
+                <div class="code-div" id="code">
+                    <h2>CODE EXAMPLE</h2>
+                    <div>
+                        <p class="code-border">Kata from codewars:</p>
+                        <p class="code-border">Complete the function that takes a string as an argument representing 
+                        the current state of the light and returns a string representing the state 
+                        the light should change to:</p>
+                        <pre class="code-pre"><code class="code">
+                            function updateLight(current) {
+                            if (current == 'green') return 'yellow';
+                            else if (current == 'yellow') return 'red';
+                            else return 'green';
+                            }
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </wrapper-main>
+        <div class="experience-div" id="experience">
+            <h2>WORK EXPERIENCE</h2>
+            <div>
+                <h3>Links to educational projects:</h3>
+                <ul>
+                    <li>Simple travel website: <a href="https://github.com/Harapuchyk/travrl-done">https://github.com/Harapuchyk/travrl-done</a></li>
+                    <li>App momentum: <a href="https://github.com/Harapuchyk/momentum-done">https://github.com/Harapuchyk/momentum-done</a></li>
+                    <li>App ancient horror board game: <a href="https://github.com/Harapuchyk/eldritch-codejam">https://github.com/Harapuchyk/eldritch-codejam</a></li>
+                </ul>    
+            </div>    
+        </div>
+        <div class="wrapper-education">
+            <div class="education-div" id="education">
+                <h2>EDUCATION</h2>
+                <ul class="education-list">
+                    <li>Brest State University. Faculty of Physical Education. Specialty: Lecturer. Physical Therapy Instructor. 2009-2013</li>
+                    <li>Brest State Technical University. Institute for advanced training and retraining. Specialty: Information systems software. 2011-2013</li>
+                    <li>Successfully completed "JS / FRONT-END. STAGE 0". 2022</li>
+                </ul>
+            </div>
+            <div class="languages-div" id="language">
+                <h2>LANGUAGES</h2>  
+                <div class="languages-list">
+                    <div class="eng-rus-block">
+                        <div>English - A1</div>
+                        <div class="blr-block">Belarussian - Native</div>
+                        <div>Polish - A2</div>
+                    </div>
+                   
+                    <div class="ukr-pl-block">
+                        <div>Ukrainian - A2</div>
+                        <div>Russian - Native</div>
+                    </div>
+                </div>
+            </div> 
+        </div>     
+    </main>
+    <footer class="footer">        
+        <div class="footer-ghp"><a href="https://github.com/Harapuchyk"><img class="footer-link" src="./assets/git.png" alt="git" width="30"></a></div>
+        <div class="footer-text">HARAPUCHYK, 2022 &copy;</div>
+        <div class="footer-rss"><a href="https://rs.school/js/"><img class="footer-link" src="./assets/rss.png" alt="rss" width="30"></a></div>
+    </footer>
+</body>
 </html>
